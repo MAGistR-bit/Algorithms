@@ -271,3 +271,6 @@ _**Концепция стека вызовов**_ играет важную р�
 > [RecursiveSum.java](src/quick_sort/RecursiveSum.java)
 2. Написать рекурсивную функцию для подсчета
 элементов в списке.
+> [RecursiveCount.java](src/quick_sort/RecursiveCount.java)
+3. Найдите наибольшее число в списке.
+>[RecursiveMax.java](src/quick_sort/RecursiveMax.java)
