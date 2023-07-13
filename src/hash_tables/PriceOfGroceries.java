@@ -5,6 +5,9 @@ import java.util.Map;
 
 /** Пример из книги.
  * Book - новая хеш-таблица.
+ * В хеше book имена продуктов являются ключами,
+ * а цены - значениями. Хеш-таблица связывает
+ * ключи со значениями.
  */
 public class PriceOfGroceries {
     public static void main(String[] args) {
