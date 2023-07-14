@@ -1,4 +1,4 @@
-package recursion.callStack.greet;
+package recursion.java.greet;
 
 import java.util.Scanner;
 

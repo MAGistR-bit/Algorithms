@@ -1,4 +1,4 @@
-package recursion.countdown;
+package recursion.java.countdown;
 
 import java.util.Scanner;
 

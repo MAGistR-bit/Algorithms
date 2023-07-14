@@ -1,4 +1,4 @@
-package recursion.factorial;
+package recursion.java.factorial;
 
 import java.util.Scanner;
 
