@@ -1,4 +1,4 @@
-package quick_sort;
+package quick_sort.java;
 
 import java.util.List;
 import java.util.function.Function;
