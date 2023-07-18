@@ -1,4 +1,4 @@
-package dijkstras_algorithm;
+package dijkstras_algorithm.java;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,10 +7,10 @@ import java.util.Map;
 
 public class DijkstraAlgorithm {
     // Граф
-    private static Map<String, Map<String, Double>> graph = new HashMap<>();
+    private static final Map<String, Map<String, Double>> graph = new HashMap<>();
 
     // Список отслеживания всех уже обработанных узлов
-    private static List<String> processed = new ArrayList<>();
+    private static final List<String> processed = new ArrayList<>();
 
 
     public static void main(String[] args) {
@@ -55,8 +55,7 @@ public class DijkstraAlgorithm {
             for (String n : neighbors.keySet()) {
 
                 double newCost = cost + neighbors.get(n);
-                // Если к соседу можно быстрее
-                // добраться через текущий узел ...
+                // Если к соседу можно быстрее добраться через текущий узел ...
                 if (costs.get(n) > newCost) {
                     // ... обновить стоимость для этого узла
                     costs.put(n, newCost);
@@ -68,8 +67,7 @@ public class DijkstraAlgorithm {
             // Узел помечается как обработанный
             processed.add(node);
 
-            // Найти следующий узел для обработки и повторить
-            // цикл
+            // Найти следующий узел для обработки и повторить цикл
             node = findLowestCostNode(costs);
         }
 
