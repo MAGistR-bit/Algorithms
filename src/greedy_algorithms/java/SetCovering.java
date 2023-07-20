@@ -1,4 +1,4 @@
-package greedy_algorithms;
+package greedy_algorithms.java;
 
 import java.util.*;
 
@@ -32,7 +32,7 @@ public class SetCovering {
         stations.put("kfive",new HashSet<>(Arrays.asList("ca","az")));
 
         // Итоговый набор станций
-        Set<String> finalStations = new HashSet<String>();
+        Set<String> finalStations = new HashSet<>();
 
         // Пока множество statesNeeded не станет пустым
         while (!statesNeeded.isEmpty()) {
